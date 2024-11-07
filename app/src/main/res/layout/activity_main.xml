@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Inder Singh 100816726 November 6, 2024 -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Location Finder"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Address" />
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="10dp"
+        android:hint="Latitude" />
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latitude"
+        android:layout_marginTop="10dp"
+        android:hint="Longitude" />
+
+    <Button
+        android:id="@+id/queryLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/longitude"
+        android:layout_marginTop="20dp"
+        android:onClick="queryLocation"
+        android:text="Query (Address)"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <Button
+        android:id="@+id/addLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/queryLocation"
+        android:layout_marginTop="5dp"
+        android:text="Add (Address, Latitude, Longitude)"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <Button
+        android:id="@+id/deleteLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addLocation"
+        android:onClick="deleteLocation"
+        android:layout_marginTop="5dp"
+        android:text="Delete (Address)"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <Button
+        android:id="@+id/updateLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deleteLocation"
+        android:layout_marginTop="5dp"
+        android:onClick="updateLocation"
+        android:text="Update (Address, Latitude, Longitude)"
+        android:backgroundTint="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Display" />
+
+</RelativeLayout>
