@@ -46,7 +46,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('30 Yonge St', 43.646977, -79.377189)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('1 Blue Jays Way', 43.641438, -79.389353)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('40 Bay St', 43.643466, -79.379099)");
-        db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('27 King''s College Cir', 43.662891, -79.395656)");
+        db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('27 Kings College Cir', 43.662891, -79.395656)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('350 Victoria St', 43.657722, -79.378514)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('4700 Keele St', 43.7735, -79.501868)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('1 Brimley Rd S', 43.705, -79.235)");
@@ -61,7 +61,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('777 Lawrence Ave E', 43.734, -79.363)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('1000 Murray Ross Pkwy', 43.7735, -79.507)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('955 Lake Shore Blvd W', 43.628947, -79.414452)");
-        db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('100 Princes'' Blvd', 43.6331, -79.4184)");
+        db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('100 Princes Blvd', 43.6331, -79.4184)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('650 Dixon Rd', 43.689, -79.578)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('6301 Silver Dart Dr', 43.677717, -79.62482)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('100 City Centre Dr', 43.593399, -79.642)");
@@ -83,7 +83,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('1660 North Park Dr', 43.741, -79.731)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('8520 Creditview Rd', 43.634, -79.805)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('1 Bass Pro Mills Dr', 43.825, -79.539)");
-        db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('1 Canada''s Wonderland Dr', 43.843, -79.539)");
+        db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('1 Canadas Wonderland Dr', 43.843, -79.539)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('10365 Islington Ave', 43.843, -79.625)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('8739 Islington Ave', 43.788, -79.588)");
         db.execSQL("INSERT INTO " + TABLE_NAME + " (address, latitude, longitude) VALUES ('2141 Major MacKenzie Dr W', 43.845, -79.529)");
